@@ -1,6 +1,6 @@
-var numeri_stampati = []
+var numeri_stampati = [];
 
-for(var i=0; i<101; i++){
+for(var i=1; i<=100; i++){
   if(i % 3 == 0 && i % 5 ==0){
     console.log(i + " FizzBuzz");
     document.getElementById('stampa').innerHTML += i + "," + " FizzBuzz; <br>";
